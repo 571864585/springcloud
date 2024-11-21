@@ -1,5 +1,6 @@
 package com.hmall.cart;
 
+import com.hmall.api.filter.DefaultFeignConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
  * @Author: 徐
  * @CreateTime: 2024/11/14 9:47
  */
-@EnableFeignClients(basePackages = "com.hmall.api.client")
+@EnableFeignClients(basePackages = "com.hmall.api.client",defaultConfiguration = DefaultFeignConfig.class)
 @SpringBootApplication
 @MapperScan("com.hmall.cart.mapper")
 @Slf4j

@@ -1,6 +1,7 @@
 package com.hmall.api.filter;
 
 
+import com.hmall.api.follback.ItemClientFallbackFactory;
 import com.hmall.common.utils.UserContext;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
@@ -18,5 +19,9 @@ public class DefaultFeignConfig {
                 }
             }
         };
+    }
+    @Bean
+    public ItemClientFallbackFactory itemClientFallbackFactory(){
+        return new ItemClientFallbackFactory();
     }
 }
