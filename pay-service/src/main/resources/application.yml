@@ -6,6 +6,12 @@ spring:
   cloud:
     nacos:
       server-addr: 192.168.80.130:8848
+  rabbitmq:
+    host: 192.168.80.130
+    port: 5672
+    virtual-host: /hmall
+    username: hmall
+    password: 123
   profiles:
     active: dev
   datasource:

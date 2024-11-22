@@ -11,6 +11,9 @@ hm:
     desc: 购物车服务接口文档
     controller:
       name: com.hmall.cart.controller
+  db:
+    database: hm-cart
+    un: root
 spring:
   cloud:
     sentinel:
