@@ -1155,3 +1155,439 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.support.co
 14:38:56:845  INFO 19860 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xbedc89a9, L:/192.168.80.1:52737 ! R:/192.168.80.130:8099]
 14:38:56:845  INFO 19860 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xbedc89a9, L:/192.168.80.1:52737 ! R:/192.168.80.130:8099]) will closed
 14:38:56:845  INFO 19860 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xbedc89a9, L:/192.168.80.1:52737 ! R:/192.168.80.130:8099]) will closed
+14:42:11:897  INFO 19268 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+14:42:12:526  INFO 19268 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f3638690-f24a-3b0d-b048-b6505745e0d3
+14:42:12:579  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:579  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:580  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:603  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:607  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:609  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:609  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$563/0x000000080066c040] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:610  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:613  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:616  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:12:618  INFO 19268 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+14:42:12:661  INFO 19268 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+14:42:12:664  INFO 19268 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+14:42:12:708  INFO 19268 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+14:42:12:750  INFO 19268 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+14:42:12:918  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 7138a05b-6968-4169-8123-6540156404b3
+14:42:12:919  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] RpcClient init label, labels = {module=naming, source=sdk}
+14:42:12:920  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:42:12:920  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:42:12:920  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:42:12:920  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Try to connect to server on start up, server: {serverIp = '192.168.80.130', server main port = 8848}
+14:42:13:052  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Success to connect to server [192.168.80.130:8848] on start up, connectionId = 1732253927137_192.168.80.1_53470
+14:42:13:052  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:42:13:052  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$471/0x0000000800423440
+14:42:13:052  INFO 19268 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Notify connected event to listeners.
+14:42:13:080  INFO 19268 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.80.130:8099
+14:42:13:386  INFO 19268 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.80.130:8099,msg:< RegisterTMRequest{applicationId='cart-service', transactionServiceGroup='hmall'} >
+14:42:13:619  INFO 19268 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Receive server push request, request = NotifySubscriberRequest, requestId = 144
+14:42:13:621  INFO 19268 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [7138a05b-6968-4169-8123-6540156404b3] Ack server push request, request = NotifySubscriberRequest, requestId = 144
+14:42:13:806  INFO 19268 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x1a3ed18f, L:/192.168.80.1:53474 - R:/192.168.80.130:8099]
+14:42:13:809  INFO 19268 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 34 ms, version:1.5.2,role:TMROLE,channel:[id: 0x1a3ed18f, L:/192.168.80.1:53474 - R:/192.168.80.130:8099]
+14:42:13:810  INFO 19268 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[cart-service] txServiceGroup[hmall]
+14:42:13:815  INFO 19268 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+14:42:13:816  INFO 19268 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+14:42:13:820  INFO 19268 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+14:42:13:820  INFO 19268 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[cart-service] txServiceGroup[hmall]
+14:42:13:820  INFO 19268 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+14:42:13:821  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:13:930  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:13:932  INFO 19268 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:42:14:088  INFO 19268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+14:42:14:094  INFO 19268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:42:14:094  INFO 19268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:42:14:206  INFO 19268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:42:14:206  INFO 19268 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2296 ms
+14:42:14:444  INFO 19268 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+14:42:14:672  INFO 19268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+14:42:14:845  INFO 19268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+14:42:14:904  INFO 19268 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.80.130:8099
+14:42:14:905  INFO 19268 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.80.130:3306/hm-cart
+14:42:14:905  INFO 19268 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.80.130:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.80.130:3306/hm-cart', applicationId='cart-service', transactionServiceGroup='hmall'} >
+14:42:14:917  INFO 19268 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0x5f3d9765, L:/192.168.80.1:53552 - R:/192.168.80.130:8099]
+14:42:14:917  INFO 19268 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 7 ms, version:1.5.2,role:RMROLE,channel:[id: 0x5f3d9765, L:/192.168.80.1:53552 - R:/192.168.80.130:8099]
+14:42:16:444  INFO 19268 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+14:42:17:157  INFO 19268 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:42:18:078  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of bcf1acd6-fe26-45f3-97b1-0551388f6c6f
+14:42:18:078  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] RpcClient init label, labels = {module=naming, source=sdk}
+14:42:18:079  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:42:18:079  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:42:18:079  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:42:18:079  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Try to connect to server on start up, server: {serverIp = '192.168.80.130', server main port = 8848}
+14:42:18:203  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Success to connect to server [192.168.80.130:8848] on start up, connectionId = 1732253932719_192.168.80.1_53617
+14:42:18:203  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:42:18:203  INFO 19268 --- [main] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$471/0x0000000800423440
+14:42:18:203  INFO 19268 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Notify connected event to listeners.
+14:42:18:227  INFO 19268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+14:42:18:238  INFO 19268 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.42:8082 register finished
+14:42:18:739  INFO 19268 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Receive server push request, request = NotifySubscriberRequest, requestId = 147
+14:42:18:740  INFO 19268 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Ack server push request, request = NotifySubscriberRequest, requestId = 147
+14:42:18:859  INFO 19268 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:42:18:862  INFO 19268 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:42:18:880  INFO 19268 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:42:18:892  INFO 19268 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 9.861 seconds (JVM running for 10.53)
+14:42:18:897  INFO 19268 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service, group=DEFAULT_GROUP
+14:42:18:898  INFO 19268 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service-local.yml, group=DEFAULT_GROUP
+14:42:18:900  INFO 19268 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service.yml, group=DEFAULT_GROUP
+14:42:18:900  INFO 19268 --- [main] com.hmall.cart.CartApplication           : 购物模块启动成功
+14:42:59:455  INFO 19268 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:42:59:455  INFO 19268 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+14:42:59:461  INFO 19268 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+14:42:59:919 DEBUG 19268 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:42:59:955 DEBUG 19268 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:42:59:998 DEBUG 19268 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:43:00:782  INFO 19268 --- [nacos-grpc-client-executor-18] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Receive server push request, request = NotifySubscriberRequest, requestId = 156
+14:43:00:782  INFO 19268 --- [nacos-grpc-client-executor-18] com.alibaba.nacos.common.remote.client   : [bcf1acd6-fe26-45f3-97b1-0551388f6c6f] Ack server push request, request = NotifySubscriberRequest, requestId = 156
+14:43:01:201 DEBUG 19268 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:43:01:202 DEBUG 19268 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:43:01:206 DEBUG 19268 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:43:04:190 DEBUG 19268 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:43:04:191 DEBUG 19268 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:43:04:196 DEBUG 19268 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:43:07:940 DEBUG 19268 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+14:43:07:940 DEBUG 19268 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100001905417(Long)
+14:43:07:947 DEBUG 19268 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+14:43:07:951 DEBUG 19268 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+14:43:07:953 DEBUG 19268 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+14:43:07:958 DEBUG 19268 --- [http-nio-8082-exec-9] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+14:43:07:965 DEBUG 19268 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+14:43:07:965 DEBUG 19268 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100001905417(Long), 【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待(String), {"颜色": "红色"}(String), 224900(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp(String)
+14:43:07:989 DEBUG 19268 --- [http-nio-8082-exec-9] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+14:43:08:056 DEBUG 19268 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:43:08:056 DEBUG 19268 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:43:08:060 DEBUG 19268 --- [http-nio-8082-exec-5] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+14:43:12:645 DEBUG 19268 --- [http-nio-8082-exec-2] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+14:43:12:810 DEBUG 19268 --- [http-nio-8082-exec-2] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100001905417(Long)
+14:43:13:039 DEBUG 19268 --- [http-nio-8082-exec-2] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+14:43:14:689  INFO 19268 --- [rpcDispatch_RMROLE_1_1_32] i.s.c.r.p.c.RmBranchCommitProcessor      : rm client handle branch commit process:xid=192.168.80.130:8099:36617812430618764,branchId=36617812430618772,branchType=AT,resourceId=jdbc:mysql://192.168.80.130:3306/hm-cart,applicationData={"autoCommit":false}
+14:43:14:692  INFO 19268 --- [rpcDispatch_RMROLE_1_1_32] io.seata.rm.AbstractRMHandler            : Branch committing: 192.168.80.130:8099:36617812430618764 36617812430618772 jdbc:mysql://192.168.80.130:3306/hm-cart {"autoCommit":false}
+14:43:14:694  INFO 19268 --- [rpcDispatch_RMROLE_1_1_32] io.seata.rm.AbstractRMHandler            : Branch commit result: PhaseTwo_Committed
+14:43:21:271 DEBUG 19268 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+14:43:21:271 DEBUG 19268 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100001905417(Long)
+14:43:21:297 DEBUG 19268 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+14:43:59:637  WARN 19268 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:43:59:637  WARN 19268 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:43:59:637  WARN 19268 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:43:59:637  WARN 19268 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:43:59:985  INFO 19268 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:43:59:998  INFO 19268 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:44:00:307  INFO 19268 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:44:00:307  INFO 19268 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7ccd8583[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:44:00:307  INFO 19268 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1732253932719_192.168.80.1_53617
+14:44:00:310  INFO 19268 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4595b7c7[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 34]
+14:44:00:315  INFO 19268 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+14:44:00:369  INFO 19268 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+14:44:00:374  INFO 19268 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0x5f3d9765, L:/192.168.80.1:53552 ! R:/192.168.80.130:8099]
+14:44:00:375  INFO 19268 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0x5f3d9765, L:/192.168.80.1:53552 ! R:/192.168.80.130:8099]
+14:44:00:375  INFO 19268 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0x5f3d9765, L:/192.168.80.1:53552 ! R:/192.168.80.130:8099]
+14:44:00:375  INFO 19268 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0x5f3d9765, L:/192.168.80.1:53552 ! R:/192.168.80.130:8099]
+14:44:00:375  INFO 19268 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x5f3d9765, L:/192.168.80.1:53552 ! R:/192.168.80.130:8099]) will closed
+14:44:00:376  INFO 19268 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x5f3d9765, L:/192.168.80.1:53552 ! R:/192.168.80.130:8099]) will closed
+14:49:03:712  INFO 17056 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+14:49:04:406  INFO 17056 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f3638690-f24a-3b0d-b048-b6505745e0d3
+14:49:04:441  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:441  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:442  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:458  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:461  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:462  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:462  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$563/0x000000080066c040] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:462  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:464  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:465  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:04:467  INFO 17056 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+14:49:04:496  INFO 17056 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+14:49:04:498  INFO 17056 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+14:49:04:528  INFO 17056 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+14:49:04:560  INFO 17056 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+14:49:04:760  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 86068dc7-0682-4ee5-bef9-fc088dba3966
+14:49:04:760  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] RpcClient init label, labels = {module=naming, source=sdk}
+14:49:04:761  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:49:04:761  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:49:04:761  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:49:04:761  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Try to connect to server on start up, server: {serverIp = '192.168.80.130', server main port = 8848}
+14:49:04:887  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Success to connect to server [192.168.80.130:8848] on start up, connectionId = 1732254373298_192.168.80.1_54460
+14:49:04:887  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:49:04:887  INFO 17056 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Notify connected event to listeners.
+14:49:04:887  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$471/0x0000000800423440
+14:49:04:922  INFO 17056 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.80.130:8099
+14:49:05:230  INFO 17056 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.80.130:8099,msg:< RegisterTMRequest{applicationId='cart-service', transactionServiceGroup='hmall'} >
+14:49:05:406  INFO 17056 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Receive server push request, request = NotifySubscriberRequest, requestId = 165
+14:49:05:407  INFO 17056 --- [nacos-grpc-client-executor-4] com.alibaba.nacos.common.remote.client   : [86068dc7-0682-4ee5-bef9-fc088dba3966] Ack server push request, request = NotifySubscriberRequest, requestId = 165
+14:49:05:687  INFO 17056 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xe9ef32a6, L:/192.168.80.1:54528 - R:/192.168.80.130:8099]
+14:49:05:691  INFO 17056 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 43 ms, version:1.5.2,role:TMROLE,channel:[id: 0xe9ef32a6, L:/192.168.80.1:54528 - R:/192.168.80.130:8099]
+14:49:05:691  INFO 17056 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[cart-service] txServiceGroup[hmall]
+14:49:05:698  INFO 17056 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+14:49:05:698  INFO 17056 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+14:49:05:704  INFO 17056 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+14:49:05:704  INFO 17056 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[cart-service] txServiceGroup[hmall]
+14:49:05:704  INFO 17056 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+14:49:05:706  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:05:835  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:05:838  INFO 17056 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:06:011  INFO 17056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+14:49:06:017  INFO 17056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:49:06:017  INFO 17056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:49:06:110  INFO 17056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:49:06:110  INFO 17056 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2387 ms
+14:49:06:307  INFO 17056 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+14:49:06:573  INFO 17056 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+14:49:06:788  INFO 17056 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+14:49:06:859  INFO 17056 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.80.130:8099
+14:49:06:860  INFO 17056 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.80.130:3306/hm-cart
+14:49:06:860  INFO 17056 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.80.130:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.80.130:3306/hm-cart', applicationId='cart-service', transactionServiceGroup='hmall'} >
+14:49:06:878  INFO 17056 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xda293f0d, L:/192.168.80.1:54539 - R:/192.168.80.130:8099]
+14:49:06:879  INFO 17056 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 9 ms, version:1.5.2,role:RMROLE,channel:[id: 0xda293f0d, L:/192.168.80.1:54539 - R:/192.168.80.130:8099]
+14:49:08:079  INFO 17056 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+14:49:09:669  INFO 17056 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:49:09:712  INFO 17056 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:49:11:375  INFO 17056 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:49:11:472  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 98288b57-55a5-4c3c-8cd0-62698174ec10
+14:49:11:472  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] RpcClient init label, labels = {module=naming, source=sdk}
+14:49:11:473  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:49:11:473  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:49:11:473  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:49:11:473  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Try to connect to server on start up, server: {serverIp = '192.168.80.130', server main port = 8848}
+14:49:11:605  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Success to connect to server [192.168.80.130:8848] on start up, connectionId = 1732254380571_192.168.80.1_54638
+14:49:11:605  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:49:11:605  INFO 17056 --- [main] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$471/0x0000000800423440
+14:49:11:605  INFO 17056 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Notify connected event to listeners.
+14:49:11:619  INFO 17056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+14:49:11:635  INFO 17056 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.42:8082 register finished
+14:49:12:136  INFO 17056 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Receive server push request, request = NotifySubscriberRequest, requestId = 169
+14:49:12:138  INFO 17056 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Ack server push request, request = NotifySubscriberRequest, requestId = 169
+14:49:13:041  INFO 17056 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:49:13:041  INFO 17056 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:49:13:043  INFO 17056 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:49:13:056  INFO 17056 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:49:13:066  INFO 17056 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 14.049 seconds (JVM running for 14.633)
+14:49:13:070  INFO 17056 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service, group=DEFAULT_GROUP
+14:49:13:070  INFO 17056 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service-local.yml, group=DEFAULT_GROUP
+14:49:13:071  INFO 17056 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service.yml, group=DEFAULT_GROUP
+14:49:13:071  INFO 17056 --- [main] com.hmall.cart.CartApplication           : 购物模块启动成功
+14:49:34:086  INFO 17056 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:49:34:087  INFO 17056 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+14:49:34:088  INFO 17056 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+14:49:34:509 DEBUG 17056 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:49:34:546 DEBUG 17056 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:49:34:587 DEBUG 17056 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:49:35:398  INFO 17056 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Receive server push request, request = NotifySubscriberRequest, requestId = 177
+14:49:35:399  INFO 17056 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [98288b57-55a5-4c3c-8cd0-62698174ec10] Ack server push request, request = NotifySubscriberRequest, requestId = 177
+14:49:35:847 DEBUG 17056 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:49:35:847 DEBUG 17056 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:49:35:852 DEBUG 17056 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:49:37:493 DEBUG 17056 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:49:37:493 DEBUG 17056 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:49:37:500 DEBUG 17056 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+14:49:40:835 DEBUG 17056 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+14:49:40:836 DEBUG 17056 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long), 100001905417(Long)
+14:49:40:841 DEBUG 17056 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+14:49:40:844 DEBUG 17056 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+14:49:40:846 DEBUG 17056 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 1(Long)
+14:49:40:851 DEBUG 17056 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+14:49:40:857 DEBUG 17056 --- [http-nio-8082-exec-2] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+14:49:40:859 DEBUG 17056 --- [http-nio-8082-exec-2] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 1(Long), 100001905417(Long), 【千玺代言】华为新品 HUAWEI nova 4 极点全面屏手机 2000万超广角三摄 8GB+128GB 蜜语红 全网通双卡双待(String), {"颜色": "红色"}(String), 224900(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/20085/14/1076/149604/5c0f8dd2Ebafd3bfd/0cb34a7826cbe1c3.jpg!q70.jpg.webp(String)
+14:49:40:877 DEBUG 17056 --- [http-nio-8082-exec-2] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+14:49:40:960 DEBUG 17056 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+14:49:40:960 DEBUG 17056 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+14:49:40:966 DEBUG 17056 --- [http-nio-8082-exec-6] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 2
+14:49:47:289 DEBUG 17056 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+14:49:47:444 DEBUG 17056 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100001905417(Long)
+14:49:47:609 DEBUG 17056 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+14:49:48:839  INFO 17056 --- [rpcDispatch_RMROLE_1_1_32] i.s.c.r.p.c.RmBranchCommitProcessor      : rm client handle branch commit process:xid=192.168.80.130:8099:36617812430618788,branchId=36617812430618796,branchType=AT,resourceId=jdbc:mysql://192.168.80.130:3306/hm-cart,applicationData={"autoCommit":false}
+14:49:48:843  INFO 17056 --- [rpcDispatch_RMROLE_1_1_32] io.seata.rm.AbstractRMHandler            : Branch committing: 192.168.80.130:8099:36617812430618788 36617812430618796 jdbc:mysql://192.168.80.130:3306/hm-cart {"autoCommit":false}
+14:49:48:844  INFO 17056 --- [rpcDispatch_RMROLE_1_1_32] io.seata.rm.AbstractRMHandler            : Branch commit result: PhaseTwo_Committed
+14:49:51:450 DEBUG 17056 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+14:49:51:450 DEBUG 17056 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 1(Long), 100001905417(Long)
+14:49:51:476 DEBUG 17056 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+14:51:13:867  WARN 17056 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:51:13:867  WARN 17056 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:51:13:868  WARN 17056 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:51:13:868  WARN 17056 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:51:14:232  INFO 17056 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:51:14:252  INFO 17056 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:51:14:558  INFO 17056 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:51:14:558  INFO 17056 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@402065e9[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:51:14:558  INFO 17056 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1732254380571_192.168.80.1_54638
+14:51:14:561  INFO 17056 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2c070825[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 35]
+14:51:14:565  INFO 17056 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+14:51:14:698  INFO 17056 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+14:51:14:703  INFO 17056 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xda293f0d, L:/192.168.80.1:54539 ! R:/192.168.80.130:8099]
+14:51:14:703  INFO 17056 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xda293f0d, L:/192.168.80.1:54539 ! R:/192.168.80.130:8099]
+14:51:14:703  INFO 17056 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xda293f0d, L:/192.168.80.1:54539 ! R:/192.168.80.130:8099]
+14:51:14:703  INFO 17056 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xda293f0d, L:/192.168.80.1:54539 ! R:/192.168.80.130:8099]
+14:51:14:703  INFO 17056 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xda293f0d, L:/192.168.80.1:54539 ! R:/192.168.80.130:8099]) will closed
+14:51:14:703  INFO 17056 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xda293f0d, L:/192.168.80.1:54539 ! R:/192.168.80.130:8099]) will closed
+15:00:43:634  INFO 18876 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+15:00:44:247  INFO 18876 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f3638690-f24a-3b0d-b048-b6505745e0d3
+15:00:44:288  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:288  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:289  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:304  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:307  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:308  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:308  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$563/0x000000080066a840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:308  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:310  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:311  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:44:313  INFO 18876 --- [main] i.s.s.b.a.SeataAutoConfiguration         : Automatically configure Seata
+15:00:44:348  INFO 18876 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:00:44:350  INFO 18876 --- [main] io.seata.config.ConfigurationFactory     : load Configuration from :Spring Configuration
+15:00:44:381  INFO 18876 --- [main] i.s.s.a.GlobalTransactionScanner         : Initializing Global Transaction Clients ... 
+15:00:44:427  INFO 18876 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:00:44:628  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 9ee9f06a-561e-494f-a445-680ac6ebdcf7
+15:00:44:628  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] RpcClient init label, labels = {module=naming, source=sdk}
+15:00:44:629  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:00:44:629  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:00:44:630  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:00:44:630  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Try to connect to server on start up, server: {serverIp = '192.168.80.130', server main port = 8848}
+15:00:44:754  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Success to connect to server [192.168.80.130:8848] on start up, connectionId = 1732255131495_192.168.80.1_55264
+15:00:44:754  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:00:44:754  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$471/0x0000000800423440
+15:00:44:754  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Notify connected event to listeners.
+15:00:44:784  INFO 18876 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.80.130:8099
+15:00:45:082  INFO 18876 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.80.130:8099,msg:< RegisterTMRequest{applicationId='cart-service', transactionServiceGroup='hmall'} >
+15:00:45:293  INFO 18876 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Receive server push request, request = NotifySubscriberRequest, requestId = 186
+15:00:45:295  INFO 18876 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Ack server push request, request = NotifySubscriberRequest, requestId = 186
+15:00:45:502  INFO 18876 --- [main] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xc73d7f5a, L:/192.168.80.1:55336 - R:/192.168.80.130:8099]
+15:00:45:508  INFO 18876 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 43 ms, version:1.5.2,role:TMROLE,channel:[id: 0xc73d7f5a, L:/192.168.80.1:55336 - R:/192.168.80.130:8099]
+15:00:45:508  INFO 18876 --- [main] i.s.s.a.GlobalTransactionScanner         : Transaction Manager Client is initialized. applicationId[cart-service] txServiceGroup[hmall]
+15:00:45:516  INFO 18876 --- [main] io.seata.rm.datasource.AsyncWorker       : Async Commit Buffer Limit: 10000
+15:00:45:517  INFO 18876 --- [main] i.s.rm.datasource.xa.ResourceManagerXA   : ResourceManagerXA init ...
+15:00:45:522  INFO 18876 --- [main] i.s.core.rpc.netty.NettyClientBootstrap  : NettyClientBootstrap has started
+15:00:45:522  INFO 18876 --- [main] i.s.s.a.GlobalTransactionScanner         : Resource Manager is initialized. applicationId[cart-service] txServiceGroup[hmall]
+15:00:45:522  INFO 18876 --- [main] i.s.s.a.GlobalTransactionScanner         : Global Transaction Clients are initialized. 
+15:00:45:524  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:45:677  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:45:680  INFO 18876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:00:45:900  INFO 18876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+15:00:45:911  INFO 18876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+15:00:45:911  INFO 18876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+15:00:46:041  INFO 18876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+15:00:46:041  INFO 18876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2398 ms
+15:00:46:291  INFO 18876 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+15:00:46:570  INFO 18876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+15:00:46:754  INFO 18876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+15:00:46:814  INFO 18876 --- [main] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.80.130:8099
+15:00:46:814  INFO 18876 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : RM will register :jdbc:mysql://192.168.80.130:3306/hm-cart
+15:00:46:814  INFO 18876 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:RMROLE,address:192.168.80.130:8099,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://192.168.80.130:3306/hm-cart', applicationId='cart-service', transactionServiceGroup='hmall'} >
+15:00:46:831  INFO 18876 --- [main] i.s.c.rpc.netty.RmNettyRemotingClient    : register RM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xc0d312fc, L:/192.168.80.1:55346 - R:/192.168.80.130:8099]
+15:00:46:831  INFO 18876 --- [main] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 11 ms, version:1.5.2,role:RMROLE,channel:[id: 0xc0d312fc, L:/192.168.80.1:55346 - R:/192.168.80.130:8099]
+15:00:48:360  INFO 18876 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:00:49:381  INFO 18876 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:00:50:380  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 71b50081-8a22-4a36-b498-9e0296138876
+15:00:50:381  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] RpcClient init label, labels = {module=naming, source=sdk}
+15:00:50:381  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:00:50:381  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:00:50:381  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:00:50:382  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Try to connect to server on start up, server: {serverIp = '192.168.80.130', server main port = 8848}
+15:00:50:509  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Success to connect to server [192.168.80.130:8848] on start up, connectionId = 1732255137727_192.168.80.1_55475
+15:00:50:509  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:00:50:509  INFO 18876 --- [main] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$471/0x0000000800423440
+15:00:50:509  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Notify connected event to listeners.
+15:00:50:529  INFO 18876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+15:00:50:540  INFO 18876 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.43.42:8082 register finished
+15:00:51:020  INFO 18876 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Receive server push request, request = NotifySubscriberRequest, requestId = 190
+15:00:51:021  INFO 18876 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Ack server push request, request = NotifySubscriberRequest, requestId = 190
+15:00:51:122  INFO 18876 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:00:51:125  INFO 18876 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:00:51:138  INFO 18876 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:00:51:147  INFO 18876 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 10.14 seconds (JVM running for 10.773)
+15:00:51:151  INFO 18876 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service, group=DEFAULT_GROUP
+15:00:51:152  INFO 18876 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service-local.yml, group=DEFAULT_GROUP
+15:00:51:153  INFO 18876 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=cart-service.yml, group=DEFAULT_GROUP
+15:00:51:154  INFO 18876 --- [main] com.hmall.cart.CartApplication           : 购物模块启动成功
+15:01:07:099  INFO 18876 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:01:07:099  INFO 18876 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+15:01:07:103  INFO 18876 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+15:01:07:688 DEBUG 18876 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:01:07:727 DEBUG 18876 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+15:01:07:765 DEBUG 18876 --- [http-nio-8082-exec-1] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+15:02:00:090 DEBUG 18876 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:02:00:090 DEBUG 18876 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+15:02:00:093 DEBUG 18876 --- [http-nio-8082-exec-2] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+15:02:05:641 DEBUG 18876 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ? AND item_id = ?)
+15:02:05:645 DEBUG 18876 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 2(Long), 1533902(Long)
+15:02:05:657 DEBUG 18876 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:02:05:661 DEBUG 18876 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==>  Preparing: SELECT COUNT( * ) FROM cart WHERE (user_id = ?)
+15:02:05:661 DEBUG 18876 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : ==> Parameters: 2(Long)
+15:02:05:669 DEBUG 18876 --- [http-nio-8082-exec-3] c.h.cart.mapper.CartMapper.selectCount   : <==      Total: 1
+15:02:05:729 DEBUG 18876 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==>  Preparing: INSERT INTO cart ( user_id, item_id, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ? )
+15:02:05:733 DEBUG 18876 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : ==> Parameters: 2(Long), 1533902(Long), 新西兰进口牛奶 纽仕兰 3.5g蛋白质全脂牛奶 250ml*24整箱装纯牛奶(String), {}(String), 9700(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t3526/295/888755633/189982/16ea21b4/5816dce5N70820f42.jpg!q70.jpg.webp(String)
+15:02:05:749 DEBUG 18876 --- [http-nio-8082-exec-3] com.hmall.cart.mapper.CartMapper.insert  : <==    Updates: 1
+15:02:05:818 DEBUG 18876 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:02:05:818 DEBUG 18876 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+15:02:05:835 DEBUG 18876 --- [http-nio-8082-exec-4] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+15:02:06:594  INFO 18876 --- [nacos-grpc-client-executor-24] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Receive server push request, request = NotifySubscriberRequest, requestId = 199
+15:02:06:595  INFO 18876 --- [nacos-grpc-client-executor-24] com.alibaba.nacos.common.remote.client   : [71b50081-8a22-4a36-b498-9e0296138876] Ack server push request, request = NotifySubscriberRequest, requestId = 199
+15:02:12:449 DEBUG 18876 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+15:02:12:610 DEBUG 18876 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 2(Long), 1533902(Long)
+15:02:12:873 DEBUG 18876 --- [http-nio-8082-exec-5] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 1
+15:02:13:751  INFO 18876 --- [rpcDispatch_RMROLE_1_1_32] i.s.c.r.p.c.RmBranchCommitProcessor      : rm client handle branch commit process:xid=192.168.80.130:8099:36617812430618812,branchId=36617812430618820,branchType=AT,resourceId=jdbc:mysql://192.168.80.130:3306/hm-cart,applicationData={"autoCommit":false}
+15:02:13:755  INFO 18876 --- [rpcDispatch_RMROLE_1_1_32] io.seata.rm.AbstractRMHandler            : Branch committing: 192.168.80.130:8099:36617812430618812 36617812430618820 jdbc:mysql://192.168.80.130:3306/hm-cart {"autoCommit":false}
+15:02:13:755  INFO 18876 --- [rpcDispatch_RMROLE_1_1_32] io.seata.rm.AbstractRMHandler            : Branch commit result: PhaseTwo_Committed
+15:02:20:530  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel [id: 0xc73d7f5a, L:/192.168.80.1:55336 - R:/192.168.80.130:8099] read idle.
+15:02:20:530  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xc73d7f5a, L:/192.168.80.1:55336 - R:/192.168.80.130:8099]
+15:02:20:530  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc73d7f5a, L:/192.168.80.1:55336 - R:/192.168.80.130:8099]) will closed
+15:02:20:686  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]) will closed
+15:02:24:283  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]
+15:02:24:283  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]
+15:02:24:283  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]
+15:02:24:283  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]) will closed
+15:02:24:285  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]) will closed
+15:02:24:285  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]
+15:02:24:285  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]
+15:02:24:285  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]
+15:02:24:285  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]) will closed
+15:02:24:285  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc73d7f5a, L:/192.168.80.1:55336 ! R:/192.168.80.130:8099]) will closed
+15:02:24:310  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Server healthy check fail, currentConnection = 1732255131495_192.168.80.1_55264
+15:02:24:310  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+15:02:24:436  INFO 18876 --- [timeoutChecker_1_1] i.s.c.r.netty.NettyClientChannelManager  : will connect to 192.168.80.130:8099
+15:02:24:436  INFO 18876 --- [timeoutChecker_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : NettyPool create channel to transactionRole:TMROLE,address:192.168.80.130:8099,msg:< RegisterTMRequest{applicationId='cart-service', transactionServiceGroup='hmall'} >
+15:02:24:547  INFO 18876 --- [timeoutChecker_1_1] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.5.2, server version:1.5.2,channel:[id: 0xdba9465e, L:/192.168.80.1:56009 - R:/192.168.80.130:8099]
+15:02:24:547  INFO 18876 --- [timeoutChecker_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 97 ms, version:1.5.2,role:TMROLE,channel:[id: 0xdba9465e, L:/192.168.80.1:56009 - R:/192.168.80.130:8099]
+15:02:24:880  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Success to connect a server [192.168.80.130:8848], connectionId = 1732255239825_192.168.80.1_56005
+15:02:24:880  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Abandon prev connection, server is 192.168.80.130:8848, connectionId is 1732255131495_192.168.80.1_55264
+15:02:24:880  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1732255131495_192.168.80.1_55264
+15:02:24:880  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Notify disconnected event to listeners
+15:02:24:880  WARN 18876 --- [nacos-grpc-client-executor-31] c.a.n.c.remote.client.grpc.GrpcClient    : [1732255131495_192.168.80.1_55264]Ignore error event,isRunning:true,isAbandon=true
+15:02:24:880  INFO 18876 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Notify connected event to listeners.
+15:02:25:548 DEBUG 18876 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+15:02:25:550 DEBUG 18876 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 2(Long), 1533902(Long)
+15:02:25:566 DEBUG 18876 --- [http-nio-8082-exec-6] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+15:02:28:128  INFO 18876 --- [nacos-grpc-client-executor-33] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Receive server push request, request = NotifySubscriberRequest, requestId = 208
+15:02:28:128  INFO 18876 --- [nacos-grpc-client-executor-33] com.alibaba.nacos.common.remote.client   : [9ee9f06a-561e-494f-a445-680ac6ebdcf7] Ack server push request, request = NotifySubscriberRequest, requestId = 208
+15:02:45:407 DEBUG 18876 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : ==>  Preparing: DELETE FROM cart WHERE (user_id = ? AND item_id IN (?))
+15:02:45:407 DEBUG 18876 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : ==> Parameters: 2(Long), 1533902(Long)
+15:02:45:419 DEBUG 18876 --- [http-nio-8082-exec-7] com.hmall.cart.mapper.CartMapper.delete  : <==    Updates: 0
+15:04:03:055 DEBUG 18876 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+15:04:03:056 DEBUG 18876 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 2(Long)
+15:04:03:062 DEBUG 18876 --- [http-nio-8082-exec-10] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 0
+15:04:27:715  WARN 18876 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:04:27:717  WARN 18876 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:04:27:717  WARN 18876 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:04:27:717  WARN 18876 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:04:29:157  INFO 18876 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+15:04:29:163  INFO 18876 --- [SpringContextShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+15:04:29:470  INFO 18876 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:04:29:470  INFO 18876 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@592f4234[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:04:29:470  INFO 18876 --- [SpringContextShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1732255137727_192.168.80.1_55475
+15:04:29:472  INFO 18876 --- [SpringContextShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@7ce59eb6[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 53]
+15:04:29:477  INFO 18876 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+15:04:29:541  INFO 18876 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+15:04:29:545  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xdba9465e, L:/192.168.80.1:56009 ! R:/192.168.80.130:8099]
+15:04:29:545  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xdba9465e, L:/192.168.80.1:56009 ! R:/192.168.80.130:8099]
+15:04:29:545  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xdba9465e, L:/192.168.80.1:56009 ! R:/192.168.80.130:8099]
+15:04:29:546  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xdba9465e, L:/192.168.80.1:56009 ! R:/192.168.80.130:8099]
+15:04:29:546  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xdba9465e, L:/192.168.80.1:56009 ! R:/192.168.80.130:8099]) will closed
+15:04:29:546  INFO 18876 --- [NettyClientSelector_TMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xdba9465e, L:/192.168.80.1:56009 ! R:/192.168.80.130:8099]) will closed
+15:04:29:547  INFO 18876 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : channel inactive: [id: 0xc0d312fc, L:/192.168.80.1:55346 ! R:/192.168.80.130:8099]
+15:04:29:547  INFO 18876 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.netty.NettyClientChannelManager  : return to pool, rm channel:[id: 0xc0d312fc, L:/192.168.80.1:55346 ! R:/192.168.80.130:8099]
+15:04:29:547  INFO 18876 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : channel valid false,channel:[id: 0xc0d312fc, L:/192.168.80.1:55346 ! R:/192.168.80.130:8099]
+15:04:29:547  INFO 18876 --- [NettyClientSelector_RMROLE_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : will destroy channel:[id: 0xc0d312fc, L:/192.168.80.1:55346 ! R:/192.168.80.130:8099]
+15:04:29:547  INFO 18876 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc0d312fc, L:/192.168.80.1:55346 ! R:/192.168.80.130:8099]) will closed
+15:04:29:547  INFO 18876 --- [NettyClientSelector_RMROLE_1_1] i.s.c.r.n.AbstractNettyRemotingClient    : ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xc0d312fc, L:/192.168.80.1:55346 ! R:/192.168.80.130:8099]) will closed

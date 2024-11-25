@@ -1,5 +1,6 @@
 package com.hmall.pay;
 
+import com.hmall.api.filter.DefaultFeignConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +13,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  */
 @SpringBootApplication
 @MapperScan("com.hmall.pay.mapper")
-@EnableFeignClients(basePackages = "com.hmall.api.client")
+@EnableFeignClients(basePackages = "com.hmall.api.client",defaultConfiguration = DefaultFeignConfig.class)
 @Slf4j
 public class PayApplication {
     public static void main(String[] args) {
